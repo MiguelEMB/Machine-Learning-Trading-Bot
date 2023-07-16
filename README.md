@@ -30,3 +30,17 @@ Contrary to the SVC classifier, the AdaBoost classifier performed worse with the
 ![AdaBoost 18-month training window](./Resources/Images/adam_18_months.png)
 
 The results suggest that the AdaBoost classifier struggled to generalize well with the increased training window, potentially indicating overfitting or an imbalance between the historical patterns and the current market conditions.
+
+## Impact of Changing SMA Rolling Periods
+
+### Support Vector Classifier (SVC)
+
+When the SMA rolling periods were changed to 5 for the short window and 13 for the long window within a 3-month training period, the SVC model's behavior closely resembled the actual returns. This suggests that the new rolling periods effectively captured short-term trends and price movements.
+
+![SVC Model Performance](./Resources/Images/SVC_SMA_3_13.png)
+
+### AdaBoost Classifier
+
+In contrast, the AdaBoost classifier performed worse with the new rolling windows. It may be more sensitive to the choice of rolling periods and struggled to generalize well with periods 5 and 13.
+
+![AdaBoost Model Performance](./Resources/Images/Adam_3_months_windows_1_13.png)
