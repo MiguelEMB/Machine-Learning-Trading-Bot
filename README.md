@@ -9,11 +9,11 @@ When the training window was increased from 3 months to 18 months, the SVC class
 
 ##### Training Window: 3 Months
 
-![SVC 3-month training window](./Resources/Images/Adam_3_monthd.png)
+![SVC 3-month training window](./Resources/Images/svm_3_mothn_training.png)
 
 ##### Training Window: 18 Months
 
-![SVC 18-month training window](./Resources/Images/adam_18_months.png)
+![SVC 18-month training window](./Resources/Images/SVM_18_months.png)
 
 The results indicate that the increased training window allowed the SVC classifier to capture more historical patterns and make more accurate predictions.
 
@@ -23,10 +23,10 @@ Contrary to the SVC classifier, the AdaBoost classifier performed worse with the
 
 ##### Training Window: 3 Months
 
-![AdaBoost 3-month training window](path/to/adaboost_3_months_plot.png)
+![AdaBoost 3-month training window](./Resources/Images/Adam_3_monthd.png)
 
 ##### Training Window: 18 Months
 
-![AdaBoost 18-month training window](path/to/adaboost_18_months_plot.png)
+![AdaBoost 18-month training window](./Resources/Images/adam_18_months.png)
 
 The results suggest that the AdaBoost classifier struggled to generalize well with the increased training window, potentially indicating overfitting or an imbalance between the historical patterns and the current market conditions.
